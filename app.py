@@ -7,7 +7,7 @@ from monitor import run_monitoring, load_sample_data
 ROOT = Path(__file__).parent
 st.set_page_config(page_title="House Price Model Monitor", page_icon="🏠", layout="wide")
 st.title("🏠 House Price Prediction — Drift Monitoring")
-st.caption("Assignment 5 | Data drift, concept drift, and monitoring report")
+st.caption("Data drift, concept drift, and monitoring report")
 
 with st.sidebar:
     st.header("Monitoring settings")
